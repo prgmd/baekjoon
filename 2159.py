@@ -5,6 +5,7 @@ def find_min_adj(start, end, idx):
     temp_adj = [(end[0]+1,end[1]), (end[0]-1,end[1]), (end[0],end[1]+1), (end[0],end[1]-1)]
     temp_arr = []
     min_arr = []
+    
     min_val = 1e9
 
     for adj in temp_adj:
@@ -84,7 +85,6 @@ bfs(d, start)
 #     idx = idx_val
 
 # print(answer)
-
 
 # first = customer[0]
 # temp_arr = find_min_adj(start, first)
